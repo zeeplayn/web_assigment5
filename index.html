@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 5 - JavaScript Basics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Assignment 5: JavaScript Basics</h1>
+
+  <div class="box">
+    <h2>My Profile</h2>
+    <p>Name: <span id="name">-</span></p>
+    <p>Birth year: <span id="birthYear">-</span></p>
+    <p>Is developer: <span id="isDeveloper">-</span></p>
+    <p>Hobbies: <span id="hobbies">-</span></p>
+    <p>Age: <span id="age">-</span></p>
+    <p>Age in months: <span id="months">-</span></p>
+    <p>Number of hobbies: <span id="hobbyCount">-</span></p>
+  </div>
+
+  <div class="box">
+    <h2>Create / Update Profile</h2>
+    <form id="profileForm">
+      <input type="text" id="usernameInput" placeholder="Username">
+      <input type="number" id="birthYearInput" placeholder="Birth year">
+      <button type="submit">Create / Update Profile</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+
+  <div class="box">
+    <h2>My Hobbies / Tasks</h2>
+    <ul id="myList">
+      <li>Coding</li>
+      <li>Gaming</li>
+      <li>Music</li>
+    </ul>
+    <input type="text" id="itemInput" placeholder="New item">
+    <button id="addBtn">Add Item</button>
+    <button id="removeBtn">Remove Item</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
